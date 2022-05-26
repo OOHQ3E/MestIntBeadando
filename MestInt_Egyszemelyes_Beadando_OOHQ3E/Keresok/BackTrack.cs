@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Configuration;
 using System.Text;
 using System.Threading.Tasks;
 using MestInt_Egyszemelyes_Beadando_OOHQ3E.AllapotTer;
@@ -25,7 +26,7 @@ namespace MestInt_Egyszemelyes_Beadando_OOHQ3E.Keresok
             Csucs csucs = new Csucs(new Allapot(), null);
             while (csucs != null && !csucs.Allapot.CelallapotE())
             {
-                if (csucs.OperatorIndex < operatorok.Count && MelysegiKorlat >= csucs.Melyseg)
+                if (csucs.OperatorIndex < operatorok.Count && MelysegiKorlat > csucs.Melyseg)
                 {
                     Operator op = operatorok[csucs.OperatorIndex];
                     csucs.OperatorIndex++;

@@ -9,7 +9,7 @@
 ## ENG: Basics of Artifical Intelligence - EKCU IF CS Bsc. - NK-OOHQ3E Gábor Bagoly - 2021/22 spring semester
 
   - It was written in C#
-  - From the Labirint's \[0,0\] cell it has to get to the \[7,7\] cell
+  - From the Labirinth's \[0,0\] cell it has to get to the \[7,7\] cell
   - The artifical intelligence used in this is a depth limited cycle monitoring backtrack, which has a customisable depth limit. 
   - In case it can't find a solution in the given depth, it will write it out to the Console.
   - In case it can find a solution in the given depth, it will write the steps out to the Console.

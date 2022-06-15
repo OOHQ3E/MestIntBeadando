@@ -7,7 +7,6 @@
   - Ha talál megoldást, akkor annak a lépéseit kiírja Console-ba
 
 ## ENG: Basics of Artifical Intelligence - EKCU IF CS Bsc. - NK-OOHQ3E Gábor Bagoly - 2021/22 spring semester
-### Little setup help:
 
   - It was written in C#
   - From the Labirint's \[0,0\] cell it has to get to the \[7,7\] cell
